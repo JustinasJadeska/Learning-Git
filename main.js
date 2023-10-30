@@ -2,7 +2,7 @@ document.querySelectorAll('#spalvos button').forEach((button) => {
     button.addEventListener('click', (e) => {
         e.preventDefault();
 
-        const sectionElement = document.getElementById('spalvos');
+        const sectionElement = document.querySelector('#spalvos');
         const buttonColor = button.innerText.toLowerCase().trim();
 
         if (buttonColor === 'red') {
