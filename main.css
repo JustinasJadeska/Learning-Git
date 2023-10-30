@@ -2,4 +2,14 @@
 
 body {
     margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+ul, ol {
+    list-style-type: circle;
 }
