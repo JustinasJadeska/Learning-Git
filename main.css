@@ -13,3 +13,25 @@ h1, h2, h3 {
 ul, ol {
     list-style-type: circle;
 }
+
+#spalvos {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#spalvos > button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-weight: 800;
+}
+
+#spalvos > button:hover {
+    background-color: grey;
+    font-weight: 800;
+    color: aliceblue;
+}
